@@ -6,7 +6,7 @@ const messages = [
     '¿estás ahí?',
     "¿qué ha pasado?",
     'bueno...',
-    "tienes que volver a empezar...",
+    "tendrás que volver a empezar...",
     '¿estás ahí?',
     '¿estás recibiendo los mensajes?',
     'knock knock',
