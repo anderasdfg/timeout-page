@@ -1,0 +1,11 @@
+{
+  "name": "timeout-page",
+  "version": "1.0.0",
+  "description": "Timeout page ⏱",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anderley Candela",
+  "license": "ISC"
+}

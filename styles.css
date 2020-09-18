@@ -1,0 +1,126 @@
+@import url(../../node_modules/sanitize.css/);
+body {
+    font-family: 'space mono', monospace;
+    font-size: 16px;
+    color: #333;
+    background-color: #f8f8ff;
+}
+
+.phone {
+    max-width: 15em;
+    margin: 3em auto;
+    background-color: currentcolor;
+    padding: 1em 0.5em;
+    border-radius: 1em;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.message-list {
+    height: 20em;
+    overflow: hidden;
+    background: #fff;
+    margin: 1em auto;
+    list-style: none;
+    padding: 0.5em;
+    border-radius: 0.1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.message {
+    display: flex;
+    align-items: flex-end;
+    flex-shrink: 0;
+    margin-bottom: 1em;
+    animation: fadein 400ms;
+}
+
+.message__text {
+    background-color: #1e90ff;
+    padding: 0.5em 1em;
+    color: rgba(255, 255, 255, 0.9);
+    border-radius: 1em;
+}
+
+.message__avatar {
+    flex-shrink: 0;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    margin-right: 0.5em;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e6e6fa;
+}
+
+.text {
+    width: 27em;
+    margin: 0 auto;
+}
+
+.visually-hidden {
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation: none !important;
+        transition: none !important;
+    }
+}
+
+@-moz-keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
